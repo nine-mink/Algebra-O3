@@ -1,0 +1,10 @@
+dist/
+site.tar.gz
+.env
+.env.*
+!.env.example
+preview.png
+*.log
+codex-preview.png
+.local/
+node_modules/

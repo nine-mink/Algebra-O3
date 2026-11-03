@@ -1,0 +1,17 @@
+{
+  "name": "algebra-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.mjs",
+    "dev": "node server.mjs",
+    "test": "node --test tests/api.test.mjs tests/practice.test.mjs tests/algebra.test.mjs",
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate-artifact.mjs",
+    "db:generate": "drizzle-kit generate"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.11",
+    "drizzle-orm": "^0.45.4"
+  }
+}
